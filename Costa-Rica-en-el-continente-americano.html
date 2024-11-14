@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+<meta charset="UTF-8">
+<meta name="viewwport" content="width=device-width,initial-scale=1.0">
+<title>Estudios sociales-Costa Rica en el continente americano</title>
+<link rel="stylesheet" href="styles.css">
+<script src="script.js"></script>
+    </head>
+    <body>
+<header>
+    <div class="bandera">
+        <img src="img/bandera.png" width="100%" height="80px">
+        <h1>Estudios Sociales</h1>
+    </div>
+
+    <hr/>
+
+    <!-- Menu principal-->
+    <nav id="menu-principal" class="menu-principal">
+        <ul>
+            <li><a href="index.html">Tema 1.  Geografía</a></li>
+            <li><a href="historia.html">Tema 2.  Historia</a></li>
+            <li><a href="siglo-xx.html">Tema 3.  Siglo XX</a></li>
+        </ul>
+    </nav>
+    <div class="espacio-vacio"></div>
+
+    <!--Menu adicional-->
+    <nav id="menu-adicional" class="menu-adicional">
+        <button id="menu-toggle" onclick="toggleMenu()">Menu: Geografía de Costa Rica</button>
+        <div class="menu-items">
+            <a href="index.html">¿Cuál es la posición geográfica de Costa Rica?</a>
+            <a href="Costa-Rica-en-el-continente-americano.html">Costa Rica en el continente americano</a>
+            <a href="Conoce-las-ventajas-de-la-posicion-geografica-de-Costa-Rica.html">Conoce las ventajas de la posición geográfica de Costa Rica</a>
+            <a href="Los-vecinos-de-Costa-Rica.html">Los vecinos de Costa Rica</a>
+            <a href="Costas.html">Costas</a>
+            <a href="Division-politico-administrativa-de-Costa-Rica.html">División político-administrativa de Costa Rica</a>
+            <a href="Provincia-de-San-Jose.html">Provincia de San José</a>
+            <a href="Que-encontramos-en-la-provincia-de-Alajuela.html">¿Qué encontramos en la provincia de Alajuela?</a>
+            <a href="Conozcamos-mas-sobre-Cartago.html">Conozcamos más sobre Cartago</a>
+            <a href="Cual-es-la-provincia-mas-pequena-de-Costa-Rica.html">¿Cuál es la provincia más pequeña de Costa Rica?</a>
+            <a href="Cual-provincia-se-encuentra-a-lo-largo-del-litoral-Pacifico.html">¿Cuál provincia se encuentra a lo largo del litoral Pacífico?</a>
+            <a href="La-provincia-de-las-bombas.html">La provincia de las bombas</a>
+            <a href="Colon-llego-en-1502-a.html">Colón llegó en 1502 a...</a>
+            <a href="El-relieve-de-Costa-Rica.html">El relieve de Costa Rica</a>
+            <a href="Las-llanuras-Bellos-paisajes.html">Las llanuras: Bellos paisajes</a>
+            <a href="Hidrografia-de-Costa-Rica.html">Hidrografía de Costa Rica</a>
+            <a href="Como-se-distribuyen-las-aguas.html">¿Cómo se distribuyen las aguas?</a>
+            <a href="Los-rios-y-la-produccion-de-energia-hidroelectrica.html">Los ríos y la producción de energía hidroeléctrica</a>
+            <a href="Que-encontramos-en-las-costas.html">Qué encontramos en las costas</a>
+            <a href="Como-es-el-clima-en-nuestro-pais.html">¿Cómo es el clima en nuestro país?</a>
+            <a href="Que-determina-el-clima-en-nuestro-pais.html">¿Qué determina el clima en nuestro país?</a>
+            <a href="Como-protegemos-nuestra-flora-y-fauna.html">¿Cómo protegemos nuestra flora y fauna?</a>
+            <a href="Como-protegemos-nuestros-recursos-naturales.html">¿Cómo protegemos nuestros recursos naturales?</a>
+        </div>
+    </nav>
+    <div class="espacio-vacio"></div>
+</header>
+<main>
+    <article>
+        <img  class="article-img" src="img/img2.jpg">
+       <h3>Costa Rica en el continente americano</h3> 
+       <p class="border"><i>"América, tierra de amor y fraternidad,</br> donde siempre 
+        resplandece la luz de la libertad."</i></p>
+        <p>Costa Rica está ubicada en el continente americano, el cual se 
+            compone de América del Norte, América Central, América del Sur, 
+            y las regiones insulares.</p>
+        <p>Dentro de esta división geográfica, Costa Rica se encuentra en la 
+            región conocida como <b>América Central Ístmica</b>, situada entre el 
+            Océano Pacífico y el Mar Caribe, el cual es parte del Océano 
+            Atlántico.</p>
+        <p>Gracias a su posición céntrica en el continente, Costa Rica tiene 
+            una ventaja significativa, ya que su ubicación le permite 
+            mantener conexiones por tierra, mar y aire con todo el continente 
+            americano y, por extensión, con otras partes del mundo.</b></p>
+        
+    </article>
+
+    <hr/>
+    <h3>Vamos a practicar</h3>
+    <div id="preguntas" class="preguntas">
+        <style>
+            .respuesta{
+                display: none;
+            }
+        </style>
+
+    <div class="preguntas-block">
+        <h4>¿En qué región del continente americano se encuentra Costa Rica?</h4>
+           <ul>
+               <li>América del Norte</li>
+               <li>América Central Ístmica</li>
+               <li>América del Sur</li>
+               <li>América Insular</li>
+           </ul>
+       <button type="button" id="respuesta-correcta1" onclick="mostrarRespuesta('respuesta1', 'respuesta-correcta1')">Ver respuesta</button>
+       <p id="respuesta1" class="respuesta" ><b>Respuesta correcta: b) América Central Ístmica</b> </p>
+       </div>
+    
+    <div class="preguntas-block">
+        <h4>¿Cuáles son los océanos que rodean a Costa Rica?</h4>
+           <ul>
+               <li>Pacífico y Atlántico</li>
+               <li>Atlántico y Ártico</li>
+               <li>Índico y Pacífico</li>
+               <li>Atlántico y Mediterráneo</li>
+           </ul>
+       <button type="button" id="respuesta-correcta2" onclick="mostrarRespuesta('respuesta2', 'respuesta-correcta2')">Ver respuesta</button>
+       <p id="respuesta2" class="respuesta"><b>Respuesta correcta: a) Pacífico y Atlántico</b> </p>
+     </div>
+
+     <div class="preguntas-block">
+        <h4>¿Qué parte del Océano Atlántico está cerca de Costa Rica?</h4>
+           <ul>
+               <li>El Golfo de México</li>
+               <li>El Mar Caribe</li>
+               <li>El Mar del Norte</li>
+               <li>El Mar de Bering</li>
+           </ul>
+       <button type="button" id="respuesta-correcta3" onclick="mostrarRespuesta('respuesta3', 'respuesta-correcta3')">Ver respuesta</button>
+       <p id="respuesta3" class="respuesta"><b>Respuesta correcta: b) El Mar Caribe</b> </p>
+     </div>
+
+ <div class="preguntas-block">
+        <h4>¿Cuál es una de las ventajas de la ubicación de Costa Rica?</h4>
+           <ul>
+               <li>Su acceso limitado al mar</li>
+               <li>Su clima seco y desértico</li>
+               <li>Su posición estratégica para la comunicación terrestre, marítima y aérea</li>
+               <li>Su aislamiento geográfico</li>
+           </ul>
+       <button type="button" id="respuesta-correcta4" onclick="mostrarRespuesta('respuesta4', 'respuesta-correcta4')">Ver respuesta</button>
+       <p id="respuesta4" class="respuesta"><b>Respuesta correcta: b) C) Su posición estratégica para la comunicación terrestre, marítima y aérea</b> </p>
+    </div>
+
+<div class="preguntas-block">
+        <h4>¿Qué permite la ubicación geográfica de Costa Rica?</h4>
+           <ul>
+               <li>Solo conexiones marítimas con otros países</li>
+               <li>Comunicarse solo por tierra con América Central</li>
+               <li>Conectarse por tierra, mar y aire con toda América y el mundo</li>
+               <li>Comunicación limitada con América del Sur</li>
+           </ul>
+       <button type="button" id="respuesta-correcta5" onclick="mostrarRespuesta('respuesta5', 'respuesta-correcta5')">Ver respuesta</button>
+       <p id="respuesta5" class="respuesta"><b>Respuesta correcta: c) Conectarse por tierra, mar y aire con toda América y el mundo</b> </p>
+</div>
+
+    </div>
+
+<botton class="siguiente"><a href="Conoce-las-ventajas-de-la-posicion-geografica-de-Costa-Rica.html">Ya lo aprendí todo. vamos al tema siguiente.</a></botton>
+<footer>
+    <nav class="footer-nav">
+        <ul>
+            <li><a href="quienes-somos.html">¿Quienes somos?</a></li>
+            <li><a href="como-usar-la-pagina.html">¿Como usar la pagina?</a></li>
+            <li><a href="contactos.html">Contactos</a></li>
+            
+        </ul>
+    </nav>
+</footer>
+</main>
+    </body>
+</html>
